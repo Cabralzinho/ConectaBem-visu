@@ -28,7 +28,7 @@ export const Header = () => {
   };
 
   return (
-    <header className="flex text-blue-600 lg:bg-white w-full px-12 lg:py-6 pt-6 items-center justify-between gap-8">
+    <header className="flex text-blue-600 lg:bg-white w-full px-8 lg:py-6 pt-6 items-center justify-between gap-8">
       <IoMdMenu className="text-4xl cursor-pointer lg:hidden" />
 
       <Image src="/images/logo.svg" alt="logo" width={80} height={80} />

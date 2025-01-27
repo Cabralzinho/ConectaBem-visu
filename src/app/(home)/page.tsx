@@ -22,7 +22,7 @@ export default function HomePage() {
           </div>
           <div className="hidden lg:flex w-full justify-end">
             <Image
-              className="w-full max-w-[1300px] h-full max-h-[268px] rounded-xl"
+              className="w-full h-full max-h-[268px] rounded-xl"
               alt="logo"
               src="/images/header.png"
               width={500}
