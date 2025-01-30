@@ -23,10 +23,12 @@ const RootLayout = ({ children }: { children: ReactNode }) => {
               <GoogleOAuthProvider
                 clientId={process.env.NEXT_PUBLIC_GOOGLE_CLIENT_ID as string}
               >
-                <div className="flex flex-col gap-8 max-w-[1366px] mx-auto">
+                <div className="flex flex-col gap-8">
                   <Toaster position="top-center" />
                   <Header />
-                  <div className="px-8 lg:px-0">{children}</div>
+                  <div className="w-full max-w-[1366px] mx-auto px-10 ">
+                    {children}
+                  </div>
                   <Footer />
                 </div>
               </GoogleOAuthProvider>

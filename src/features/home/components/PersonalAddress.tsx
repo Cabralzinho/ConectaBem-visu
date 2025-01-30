@@ -1,11 +1,11 @@
-import { MdEdit } from "react-icons/md";
+import { MdOutlineEdit } from "react-icons/md";
 
 
 export const PersonalAddress = () => {
   return (
-    <div className="flex items-center justify-center lg:justify-start gap-2 cursor-pointer">
+    <div className="flex items-center justify-center lg:justify-start gap-2 cursor-pointer text-lg">
       <span>Rua Fulaninho, 000, cidade, estado</span>
-      <MdEdit />
+      <MdOutlineEdit className="text-blue-secondary"/>
     </div>
   )
 }

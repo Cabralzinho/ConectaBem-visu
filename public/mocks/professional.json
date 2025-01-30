@@ -1,0 +1,166 @@
+[
+  {
+    "id": 1,
+    "name": "Dra. Maria Lourdes",
+    "specialization": "Cardiologia",
+    "image": "https://randomuser.me/api/portraits/women/21.jpg",
+    "price": 100,
+    "rating": 4,
+    "reviews": 5,
+    "isFavorite": false,
+    "preferablyServices": [
+      {
+        "id": 1,
+        "name": "Libras"
+      },
+      {
+        "id": 2,
+        "name": "LGBTQIA+ Friendly"
+      },
+      {
+        "id": 3,
+        "name": "Pet Friendly"
+      }
+    ],
+    "distance": 10
+  },
+  {
+    "id": 2,
+    "name": "Dr. João Ribeiro",
+    "specialization": "Dermatologia",
+    "image": "https://randomuser.me/api/portraits/men/45.jpg",
+    "price": 200,
+    "rating": 5,
+    "reviews": 15,
+    "isFavorite": true,
+    "preferablyServices": [
+      {
+        "id": 4,
+        "name": "Atendimento Domiciliar"
+      }
+    ],
+    "distance": 5
+  },
+  {
+    "id": 5,
+    "name": "Dra. Fernanda Silva",
+    "specialization": "Ginecologia",
+    "image": "https://randomuser.me/api/portraits/women/44.jpg",
+    "price": 130,
+    "rating": 3.9,
+    "reviews": 10,
+    "isFavorite": false,
+    "preferablyServices": [
+      {
+        "id": 7,
+        "name": "Clínica Silenciosa"
+      }
+    ],
+    "distance": 3
+  },
+  {
+    "id": 6,
+    "name": "Dr. Carlos Mendes",
+    "specialization": "Psiquiatria",
+    "image": "https://randomuser.me/api/portraits/men/31.jpg",
+    "price": 250,
+    "rating": 4.7,
+    "reviews": 25,
+    "isFavorite": true,
+    "preferablyServices": [
+      {
+        "id": 1,
+        "name": "Libras"
+      },
+      {
+        "id": 8,
+        "name": "Terapia com Animais"
+      }
+    ],
+    "distance": 18
+  },
+  {
+    "id": 7,
+    "name": "Dra. Camila Rocha",
+    "specialization": "Endocrinologia",
+    "image": "https://randomuser.me/api/portraits/women/12.jpg",
+    "price": 170,
+    "rating": 4.8,
+    "reviews": 30,
+    "isFavorite": false,
+    "preferablyServices": [
+      {
+        "id": 9,
+        "name": "Ambiente Aromatizado"
+      }
+    ],
+    "distance": 6
+  },
+  {
+    "id": 8,
+    "name": "Dr. Eduardo Garcia",
+    "specialization": "Neurologia",
+    "image": "https://randomuser.me/api/portraits/men/63.jpg",
+    "price": 300,
+    "rating": 5,
+    "reviews": 40,
+    "isFavorite": true,
+    "preferablyServices": [
+      {
+        "id": 10,
+        "name": "Consultas Online"
+      }
+    ],
+    "distance": 22
+  },
+  {
+    "id": 9,
+    "name": "Dra. Helena Nunes",
+    "specialization": "Oftalmologia",
+    "image": "https://randomuser.me/api/portraits/women/25.jpg",
+    "price": 120,
+    "rating": 3.8,
+    "reviews": 12,
+    "isFavorite": false,
+    "preferablyServices": [
+      {
+        "id": 11,
+        "name": "Ambiente Calmante"
+      },
+      {
+        "id": 12,
+        "name": "Consulta Sem Pressa"
+      }
+    ],
+    "distance": 4
+  },
+  {
+    "id": 10,
+    "name": "Dr. Lucas Santos",
+    "specialization": "Clínico Geral",
+    "image": "https://randomuser.me/api/portraits/men/51.jpg",
+    "price": 140,
+    "rating": 4.6,
+    "reviews": 22,
+    "isFavorite": false,
+    "preferablyServices": [
+      {
+        "id": 1,
+        "name": "Libras"
+      },
+      {
+        "id": 13,
+        "name": "Estacionamento Próximo"
+      },
+      {
+        "id": 14,
+        "name": "Acompanhante Permitido"
+      },
+      {
+        "id": 15,
+        "name": "Ambiente Seguro"
+      }
+    ],
+    "distance": 9
+  }
+]

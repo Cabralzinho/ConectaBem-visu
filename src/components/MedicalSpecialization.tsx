@@ -27,9 +27,9 @@ const specialization = [
 
 export const MedicalSpecialization = () => {
   return (
-    <div className="flex gap-2 overflow-x-auto invisible-scroll lg:justify-center cursor-pointer">
+    <div className="flex gap-4 overflow-x-auto invisible-scroll lg:justify-center">
       {specialization.map((item) => (
-        <div className="border border-blue-600 p-2 rounded-t-lg rounded-br-lg" key={item.id}>
+        <div className="border border-blue-600 p-2 rounded-t-lg rounded-br-lg cursor-pointer" key={item.id}>
           {item.name}
         </div>
       ))}
