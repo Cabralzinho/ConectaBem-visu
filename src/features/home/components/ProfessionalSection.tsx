@@ -14,7 +14,7 @@ export const ProfessionalSection = ({Specialization}: ProfessionalSectionProps) 
           Ver Mais
         </Button>
       </div>
-      <ProfessionalCard numberLength={4}/>
+      <ProfessionalCard />
     </section>
   );
 };

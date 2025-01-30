@@ -7,7 +7,7 @@ export const HighlightWeek = () => {
       <div className="flex items-center justify-between">
         <p className="text-2xl font-semibold">Destaque da semana</p>
       </div>
-      <ProfessionalCard numberLength={8}/>
+      <ProfessionalCard />
     </section>
   )
 }
